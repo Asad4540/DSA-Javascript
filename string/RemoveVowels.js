@@ -1,4 +1,4 @@
-let input = "hello world from js";
+let input = "hello world from";
 let vowels = ["a", "e", "i", "o", "u"];
 
 function VowelsRemover(str) {
@@ -10,7 +10,7 @@ function VowelsRemover(str) {
             result += temp;
         }
     }
-    console.log(result);
+    return result;
 }
 
-VowelsRemover(input);
+console.log(VowelsRemover(input));
