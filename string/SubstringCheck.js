@@ -1,22 +1,22 @@
-let words = "hello";
-input = "lo";
-
 function SubstringChecker(word, str) {
-    let temp = "";
-    counter = 0;
-    for (i = str.length - 1; i >= 0; i--) {
-        temp = word[word.length - str.length + i];
-        if (temp !== str[i]) {
-            counter++;
+    for (let i = 0; i <= word.length - str.length; i++) {
+        let match = true;
+
+        for (let j = 0; j < str.length; j++) {
+            if (word[i + j] !== str[j]) {
+                match = false;
+                break;
+            }
+        }
+
+        if (match) {
+            return true;
         }
     }
-    if (counter > 0) {
-       return false;
-    }
-    else {
-        return true;
 
-    }
+    return false;
 }
 
-console.log(SubstringChecker(words, input));
+// Test cases
+console.log(SubstringChecker("hello", "lo")); // true
+console.log(SubstringChecker("hello", "hi")); // false
