@@ -1,9 +1,10 @@
 input = "Hello world";
 
 function reverseWords(str) {
-    arr = [];
-    str.split(' ');
-    return str;
+    splittedArray = str.split(' ');
+    ReversedArray = splittedArray.map(elem => elem.split('').reverse('').join(''));
+    return ReversedArray.join(" ");
+
 }
 
 console.log(reverseWords(input));
