@@ -1,7 +1,10 @@
-word = "USA";
+words = "FlaG";
 
-var detectCapitalUse = function(word) {
-    console.log("still solvig this problem this")
-    console.log('unable to sole rn');
-    for(i=0;i<n;i++)
-};
+var detectCapitalUse = function (word) {
+    if (word === word.toUpperCase() || word === word.toLowerCase() || word === word[0].toUpperCase() + word.slice(1).toLowerCase()){
+        return true;
+    }
+    return false;
+}
+
+console.log(detectCapitalUse(words));
