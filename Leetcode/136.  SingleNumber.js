@@ -1,16 +1,18 @@
-nums = [1,1,2,2,3,4,4,5]
+nums = [1, 4, 2, 4, 1]
 
 function Single(num) {
-    result = [];
-    input = num.sort((a, b) => a - b);
-    for (i = 1; i < input.length-1; i++) {
-        if (input[i-1] !== input[i] && input[i+1] !== input[i]  ) {
-            result.push(input[i]);
-        }
-    }
-    return result;
-    // console.log(input);
-}
+    // input = num.sort((a, b) => a - b);
+    // for (i = 0; i < input.length; i++) {
+    //     if (input[i] !== input[i + 1] && input[i] !== input[i - 1]) {
+    //         return (input[i]);
+    //     }
+    // }
 
+    counter = 0;
+    for (let i = 0; i < num.length; i++) {
+        counter = counter ^ num[i];
+    }
+    return counter
+}
 
 console.log(Single(nums));
