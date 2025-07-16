@@ -1,4 +1,4 @@
-input = "Ya$";
+input = "$Ya$";
 
 var isValid = function (word) {
     let vowels = "aeiouAEIOU", hasVowel = false; hasConsonant = false;
