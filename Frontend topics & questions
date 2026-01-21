@@ -1,0 +1,258 @@
+
+FRONTEND ADVANCED DEVELOPER  
+
+1. HTML & WEB FUNDAMENTALS
+
+1.1 Why is semantic HTML important beyond SEO?
+1.2 How do browsers parse HTML and construct the DOM?
+1.3 What are reflow and repaint, and what triggers them?
+1.4 What is the difference between preload, prefetch, and preconnect?
+1.5 How does HTML structure affect performance?
+1.6 When should you use a button instead of an anchor tag?
+1.7 How do accessible forms work?
+1.8 What problems does ARIA solve, and when should it not be used?
+1.9 How does HTML impact screen readers?
+1.10 How do meta tags affect rendering and SEO?
+
+---
+
+2. CSS (ADVANCED)
+
+2.1 How does CSS specificity work internally?
+2.2 What creates a stacking context?
+2.3 How does the browser calculate layout?
+2.4 What is the difference between Flexbox and Grid, and when should each be used?
+2.5 How does position: sticky work?
+2.6 What are container queries and why are they important?
+2.7 How does the :has() selector work?
+2.8 What are logical properties and why do they matter?
+2.9 How do you prevent layout shifts (CLS)?
+2.10 How do you architect CSS for large-scale applications?
+2.11 What causes CSS performance issues?
+2.12 How do CSS animations affect rendering?
+
+---
+
+3. JAVASCRIPT CORE (DEEP)
+
+3.1 How does the JavaScript engine execute code?
+3.2 What happens during the creation and execution phases?
+3.3 How does hoisting actually work?
+3.4 What is the event loop?
+3.5 What is the difference between microtasks and macrotasks?
+3.6 How does garbage collection work?
+3.7 What causes memory leaks in JavaScript?
+3.8 How does the this keyword behave in different contexts?
+3.9 What are closures and practical use cases?
+3.10 How does prototypal inheritance work?
+
+---
+
+4. JAVASCRIPT DESIGN PATTERNS & CONCEPTS
+
+4.1 What is functional programming in frontend development?
+4.2 What is immutability and why is it important?
+4.3 When should immutability be avoided?
+4.4 What are pure functions?
+4.5 What is currying and composition?
+4.6 What is debouncing vs throttling?
+4.7 What common design patterns are used in frontend applications?
+4.8 How do you structure large JavaScript applications?
+
+---
+
+5. TYPESCRIPT (ADVANCED)
+
+5.1 How does TypeScript’s type system work?
+5.2 What are generics and real-world use cases?
+5.3 What is the difference between interface and type?
+5.4 What are conditional types?
+5.5 What are mapped types?
+5.6 How does type narrowing work?
+5.7 How do you type complex React components?
+5.8 How do declaration files (.d.ts) work?
+5.9 How do you safely handle any and unknown?
+
+---
+
+6. FRONTEND FRAMEWORKS (REACT FOCUSED)
+
+6.1 How does React reconciliation work?
+6.2 What is the Virtual DOM and why is it used?
+6.3 How do hooks work internally?
+6.4 Why do hooks have rules?
+6.5 What causes unnecessary re-renders?
+6.6 What is the difference between controlled and uncontrolled components?
+6.7 How does the Context API work internally?
+6.8 When should Context be avoided?
+6.9 What is concurrent rendering?
+6.10 What are React Server Components?
+
+---
+
+7. STATE MANAGEMENT
+
+7.1 What is state?
+7.2 What types of state exist in frontend applications?
+7.3 When should state be local vs global?
+7.4 What problems does Redux solve?
+7.5 What is server state vs client state?
+7.6 How do tools like React Query or SWR work?
+7.7 What causes state synchronization bugs?
+7.8 How do you structure state in large applications?
+
+---
+
+8. PERFORMANCE OPTIMIZATION
+
+8.1 How does the browser render a webpage step by step?
+8.2 What is the critical rendering path?
+8.3 How does code splitting work?
+8.4 What is tree shaking?
+8.5 How do you optimize React performance?
+8.6 What are Web Vitals (LCP, CLS, INP)?
+8.7 How do you reduce Time To Interactive (TTI)?
+8.8 How do images impact performance?
+8.9 When does memoization hurt performance?
+
+---
+
+9. BROWSER & WEB APIS
+
+9.1 What is the difference between DOM and BOM?
+9.2 How does the Fetch API work?
+9.3 How do Service Workers work?
+9.4 What is the lifecycle of a Service Worker?
+9.5 What is the difference between Web Workers and Service Workers?
+9.6 How does browser caching work?
+9.7 How do you build offline-first applications?
+9.8 What are common browser storage mechanisms?
+
+---
+
+10. NETWORKING & APIS
+
+10.1 How does HTTP work?
+10.2 Differences between HTTP/1.1, HTTP/2, and HTTP/3?
+10.3 How does CORS work internally?
+10.4 REST vs GraphQL — trade-offs?
+10.5 Cookies vs localStorage vs sessionStorage?
+10.6 How does authentication work in frontend apps?
+10.7 What is OAuth?
+10.8 How do refresh tokens work?
+
+---
+
+11. SECURITY
+
+11.1 What is XSS and how do you prevent it?
+11.2 What is CSRF?
+11.3 How does Content Security Policy (CSP) work?
+11.4 How do you securely store authentication tokens?
+11.5 What security responsibilities belong to frontend developers?
+11.6 What is clickjacking?
+11.7 What are common frontend attack vectors?
+
+---
+
+12. ACCESSIBILITY (A11Y)
+
+12.1 What is WCAG?
+12.2 How do screen readers work?
+12.3 How do you manage keyboard navigation?
+12.4 How do you handle focus correctly?
+12.5 How do you test accessibility?
+12.6 How do reduced motion preferences work?
+12.7 Why is accessibility critical for performance and UX?
+
+---
+
+13. RENDERING STRATEGIES (SSR, SSG, ISR)
+
+13.1 What happens during Server-Side Rendering?
+13.2 What is hydration?
+13.3 What causes hydration mismatch?
+13.4 SSR vs SSG vs ISR — differences?
+13.5 What is edge rendering?
+13.6 How does Next.js rendering work?
+13.7 When should SSR be avoided?
+
+---
+
+14. TOOLING & BUILD SYSTEMS
+
+14.1 How do bundlers work?
+14.2 Differences between Vite, Webpack, and Rollup?
+14.3 What does Babel do?
+14.4 How does Hot Module Replacement work?
+14.5 What is a monorepo?
+14.6 What problems do monorepos solve?
+14.7 Why is pnpm faster than npm or yarn?
+
+---
+
+15. TESTING
+
+15.1 What is the test pyramid?
+15.2 Difference between unit, integration, and E2E testing?
+15.3 How do you test async code?
+15.4 How do you mock APIs?
+15.5 What should not be tested?
+15.6 How do you test accessibility?
+15.7 What is visual regression testing?
+
+---
+
+16. ARCHITECTURE & SCALABILITY
+
+16.1 What is component-driven development?
+16.2 What is atomic design?
+16.3 What are micro-frontends?
+16.4 When do micro-frontends fail?
+16.5 How do you build and scale design systems?
+16.6 How do you manage breaking changes?
+16.7 How do you scale frontend teams?
+
+---
+
+17. UX & PRODUCT THINKING
+
+17.1 How does performance affect UX?
+17.2 What is perceived performance?
+17.3 How do you collaborate with designers?
+17.4 How do you translate Figma designs into production code?
+17.5 What makes a good frontend architecture?
+17.6 How do you measure frontend success?
+
+---
+
+18. DEVOPS & PRODUCTION
+
+18.1 How does CI/CD work for frontend?
+18.2 What happens during a frontend deployment?
+18.3 How do environment variables work?
+18.4 What is a CDN and how does it work?
+18.5 How do rollbacks work?
+18.6 How do you monitor frontend errors?
+
+---
+
+19. DEBUGGING & TROUBLESHOOTING
+
+19.1 How do you debug memory leaks?
+19.2 How do you debug performance issues?
+19.3 How do you debug production-only bugs?
+19.4 How do browser dev tools work?
+19.5 How do you trace rendering issues?
+
+---
+
+20. ENGINEERING MATURITY
+
+20.1 How do you conduct effective code reviews?
+20.2 How do you mentor junior developers?
+20.3 How do you manage technical debt?
+20.4 How do you write maintainable frontend code?
+20.5 How do you document frontend systems?
+20.6 How do you estimate frontend tasks?
+
